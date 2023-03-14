@@ -22,3 +22,17 @@ console.log(numberUser, numberUser2, numberUser3, numberUser4, numberUser5, numb
 const sum = numberUser + numberUser2 + numberUser3 + numberUser + numberUser5 + numberUser6 + numberUser7 + numberUser8 + numberUser9 + numberUser10
 console.log(sum);
 
+
+//correzione di Fabio
+
+/*
+
+let sum = 0;
+for (let i = 0; i < 10; i++) {
+    let numb = Nuber(prompt('Inserisci un numero'));
+    sum+= numb //sum = sum + numb
+}
+
+console.log(sum);
+
+*/
