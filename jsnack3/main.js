@@ -31,7 +31,7 @@ console.log(sum);
 
 let sum = 0;
 for (let i = 0; i < 10; i++) {
-    let numb = Nuber(prompt('Inserisci un numero'));
+    let numb = Number(prompt('Inserisci un numero'));
     sum+= numb //sum = sum + numb
 }
 
@@ -41,8 +41,11 @@ console.log(sum);
 
 
 /*
+
+Snack 3
 Rifare con WHILE LOOP:  Il software deve chiedere per 10 volte all’utente di inserire un numero.
 Il programma stampa la somma di tutti i numeri inseriti. 
+
 */
 
 
