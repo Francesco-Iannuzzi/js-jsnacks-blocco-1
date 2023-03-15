@@ -10,13 +10,30 @@ se è dispari inseriscilo nell’array.
 const numberOdd = [];
 console.log(numberOdd);
 
-const userNumber = Number(prompt('Dimmi un numero'));
-console.log(userNumber);
+let i = 0
+while (i < 6) {
+    let userNumber = Number(prompt('Inserisci un numero'));
+    i++
 
-if (userNumber  % 2 === 0) {
-    console.log('Non posso inserirlo');
+    if (userNumber % 2 === 0) {
+        console.log('Non posso inserirlo');
+
+    } else {
+        numberOdd.push(userNumber);
+        console.log(numberOdd);
+    }
+}
+
+
+for (let j = 0; j < 6; j++) {
+    let userNumber = Number(prompt('Inserisci un numero'));
     
-} else {
-    numberOdd.push(userNumber);
-    console.log(numberOdd);
+
+    if (userNumber % 2 === 0) {
+        console.log('Non posso inserirlo');
+
+    } else {
+        numberOdd.push(userNumber);
+        console.log(numberOdd);
+    }
 }
